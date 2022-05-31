@@ -1,0 +1,3 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   4624  3756 pts/0    Ss   06:44   0:00 bash
+root        31  0.0  0.0   7056  1560 pts/0    R+   06:48   0:00 ps aux --sort pid

@@ -1,0 +1,13 @@
+1. Open terminal on your local machine and write 'ssh' to check if openssh-client is installed.
+2. Install openssh-client then you can SSH into any machine with the server-side application on it
+3. Open terminal on your server machine and write 'ssh localhost', if openssh server is not installed
+you'll reseive response like 'ssh: connect to host localhost port 22: Connection refused username@host:~$'
+4. Install ssh server via 'sudo apt-get install openssh-server ii'
+5. Check if ssh server is running via 'sudo service ssh status'
+6. Open the SSH terminal on your machine and run 'ssh your_username@host_ip_address '
+7. Make sure that you know the correct TCP port OpenSSH is listening to for connection requests
+ and that the port forwarding settings are correct. The default port is 22 if nobody changed configuration
+ in the sshd_config file. You may also just append the port number after the host IP address.
+Now you should be able to connect via ssh without any problem
+
+
